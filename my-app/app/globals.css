@@ -42,3 +42,32 @@ color: #000000;
 margin: 0;
 
 }
+
+button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  padding: 12px 24px;
+  gap: 8px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 20px;
+
+  color: #FFFFFF;
+  background-color: #0e7e30;
+  border: none;
+  border-radius: 50px;
+}
+
+.home {
+  height: 90dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 5dvh;
+}

@@ -57,7 +57,6 @@ export default function Page() {
 						alignItems: "center",
 						justifyContent: "center",
 						gap: 12,
-						padding: 20,
 						border: "none",
 						borderBottom: "1px solid #e5e7eb",
 						background: "#fff",
