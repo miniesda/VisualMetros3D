@@ -35,7 +35,7 @@ export default function Page() {
 						padding: "8px 12px",
 						borderRadius: 8,
 						border: "1px solid rgba(0,0,0,0.12)",
-						background: "rgba(255,255,255,0.9)",
+						background: "#0e7e30;",
 						cursor: "pointer",
 					}}
 				>
