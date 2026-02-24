@@ -1,9 +1,8 @@
 const nextConfig = {
-  // Remove basePath if not needed
-  // basePath: "/VisualMetros3D",
   images: {
     unoptimized: true,
   },
+  reactStrictMode: true,
 };
 
 export default nextConfig;
