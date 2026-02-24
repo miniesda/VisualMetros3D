@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 29.64 29.64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e52828;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <symbol id="CR.01" viewBox="0 0 850.39 850.39">
+      <g>
+        <g id="cercanias_color" data-name="cercanias color">
+          <rect class="cls-2" width="850.39" height="850.39"/>
+          <path class="cls-1" d="m425.2,0C190.41,0,0,190.41,0,425.2s190.41,425.2,425.2,425.2,425.2-190.41,425.2-425.2S659.99,0,425.2,0Zm0,705.9c-154.78,0-280.7-125.92-280.7-280.7h147.25c0,73.58,59.87,133.45,133.45,133.45s133.45-59.87,133.45-133.45-59.87-133.45-133.45-133.45v-147.25c154.78,0,280.71,125.92,280.71,280.71s-125.92,280.7-280.71,280.7Z"/>
+        </g>
+        <path class="cls-3" d="m425.2,705.9c-154.78,0-280.7-125.92-280.7-280.7h147.25c0,73.58,59.87,133.45,133.45,133.45s133.45-59.87,133.45-133.45-59.87-133.45-133.45-133.45v-147.25c154.78,0,280.71,125.92,280.71,280.71s-125.92,280.7-280.71,280.7Z"/>
+      </g>
+    </symbol>
+  </defs>
+  <g id="AAFF_Y_FICHA" data-name="AAFF Y FICHA">
+    <use width="850.39" height="850.39" transform="scale(.03)" xlink:href="#CR.01"/>
+  </g>
+</svg>
