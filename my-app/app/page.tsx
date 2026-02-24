@@ -15,13 +15,13 @@ export default function Home() {
             <h1>Visual Metros 3D</h1>
             <p>{languaje === "en" ? "Explore the metro stations of Sevilla in 3D and AR" : "Explora las estaciones de metro de Sevilla en 3D y AR"}</p>
                 
-                <Link href="/virtualMap">
+                <Link href="/virtualMap" style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 12, textDecoration: "none"}}>
                     <button>Virtual 3D Map</button>
-                    <img src="https://raw.githubusercontent.com/miniesda/VisualMetros3D/main/my-app/public/img/virtualMap.png" width={300} height={300}></img>
+                    <img src="https://raw.githubusercontent.com/miniesda/VisualMetros3D/main/my-app/public/img/virtualMap.png" width={150} height={150}></img>
                 </Link>
-                <Link href="/arindex">
+                <Link href="/arindex" style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 12, textDecoration: "none"}}>
                     <button>AR View</button>
-                    <img src="https://raw.githubusercontent.com/miniesda/VisualMetros3D/main/my-app/public/img/ar.png" width={300} height={300}></img>
+                    <img src="https://raw.githubusercontent.com/miniesda/VisualMetros3D/main/my-app/public/img/ar.png" width={150} height={150}></img>
                 </Link>
             </div>
     );
