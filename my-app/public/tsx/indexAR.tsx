@@ -2,9 +2,12 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useSearchParams } from "next/navigation"
 
 export default function Index() {
-  const [languaje, setLanguaje] = useState<"en" | "es">("es");
+    const searchParams = useSearchParams();
+    const [languaje, setLanguaje] = useState<"en" | "es">(searchParams?.get("lang") === "en" ? "en" : "es");
+
     return (
         <div className='index'>
             <img src={languaje === "en" ? "https://raw.githubusercontent.com/miniesda/MetroSevilla/main/my-app/public/img/cambiarEspañol.png" : "https://raw.githubusercontent.com/miniesda/MetroSevilla/main/my-app/public/img/cambiarEnglish.png"} alt={languaje === "en" ? "Cambiar a Español" : "Change to English"} 
