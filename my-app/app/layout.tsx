@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sevilla AR",
-  description: "Aplicación de realidad aumentada para el metro de Sevilla",
+  title: "VisualMetros3D",
+  description: "Aplicación de realidad aumentada y virtual de metros de poca densidad",
 };
 
 export default function RootLayout({
