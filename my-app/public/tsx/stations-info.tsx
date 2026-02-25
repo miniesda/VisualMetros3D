@@ -31,13 +31,13 @@ export default function StationsInfo({ id, visible }: InfoProps) {
     return (
       <a-plane 
         id={"info-panel-"+id}
-        width="1.2"
-        height="0.35"
+        width="1"
+        height="0.20"
         color="black"
         position="0.3 0.3 0.02"
         visible="false">
-        <a-text value={"OLIVAR DE QUINTOS: " + via1} width="2" position="-0.55 0.075 0"/>
-        <a-text value={"CIUDAD EXPO: " + via2} width="2" position="-0.55 -0.075 0"/>
+        <a-text value={"OLIVAR DE QUINTOS: " + via1} width="1.75" position="-0.5 0.06 0" style={{textAlign: "center"}}/>
+        <a-text value={"CIUDAD EXPO: " + via2} width="1.75" position="-0.5 -0.06 0" style={{textAlign: "center"}}/>
       </a-plane>
     )
 }
