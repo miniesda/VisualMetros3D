@@ -6,7 +6,7 @@ type Station = { id: string; label: string; publicPath: string; img?: string };
 
 const stations: Station[] = [
 	{ id: "sevilla", label: "Sevilla", publicPath: "./Sevilla/index.html", img: "./img/estaciones/Sevilla.png" },
-	{ id: "mallorca", label: "Mayorca", publicPath: "./Mayorca/index.html", img: "./img/estaciones/Mayorca.png" },
+	{ id: "mallorca", label: "Mallorca", publicPath: "./Mayorca/index.html", img: "./img/estaciones/Mayorca.png" },
 	{ id: "bilbao", label: "Bilbao", publicPath: "./Bilbao/index.html", img: "./img/estaciones/Bilbao.png" },
 ];
 
