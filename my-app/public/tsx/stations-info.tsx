@@ -36,11 +36,11 @@ export default function StationsInfo({ id, visible }: InfoProps) {
         id={"info-panel-"+id}
         width="1"
         height="0.20"
-        color="green"
+        color="#fab702"
         position="0.3 0.3 0.02"
         visible="false">
-        <a-text value={"OLIVAR DE QUINTOS: " + via1} width="1.75" position="-0.5 0.06 0" style={{textAlign: "center"}}/>
-        <a-text value={"CIUDAD EXPO: " + via2} width="1.75" position="-0.5 -0.06 0" style={{textAlign: "center"}}/>
+        <a-text value={"OLIVAR DE QUINTOS: " + via1} color="#000" width="1.75" position="-0.5 0.06 0" style={{textAlign: "center"}}/>
+        <a-text value={"CIUDAD EXPO: " + via2} color="#000" width="1.75" position="-0.5 -0.06 0" style={{textAlign: "center"}}/>
       </a-plane>
     )
 }

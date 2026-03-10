@@ -74,7 +74,7 @@ export default function MapStation({
             width= {planeWidth}
             height="0.075"
             position={ (planeWidth/2 + 0.05) + " 0 0"}
-            material="transparent: true"
+            material="transparent: true; color: green;"
             className="clickable"
             align="left"
           >
