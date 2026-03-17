@@ -71,3 +71,8 @@ button {
   text-align: center;
   padding: 5dvh;
 }
+
+footer {
+  display: block;
+  background-color: #fab702;
+}
