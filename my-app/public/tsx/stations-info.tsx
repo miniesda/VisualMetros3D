@@ -19,8 +19,8 @@ export default function StationsInfo({ id, visible }: InfoProps) {
         console.log(`Fetching data for station ${id}...`)
         const res = await fetch(`https://api-visualmetros3d.vercel.app/api/MetroSevilla/${id}`)
         const data = await res.json()
-        setVia1(data.EstimacionTren1_via_1 >= 0 ? `${data.EstimacionTren1_via_1} min` : "No data")
-        setVia2(data.EstimacionTren1_via_2 >= 0 ? `${data.EstimacionTren1_via_2} min` : "No data")
+        setVia1(data.Via1_Tren1_Estimacion >= 0 ? `${data.Via1_Tren1_Estimacion} min` : "No data")
+        setVia2(data.Via2_Tren1_Estimacion >= 0 ? `${data.Via2_Tren1_Estimacion} min` : "No data")
       } catch (e) {
         setVia1("Error")
         setVia2("Error")
