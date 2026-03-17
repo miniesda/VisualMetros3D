@@ -75,4 +75,8 @@ button {
 footer {
   display: block;
   background-color: #fab702;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
 }
