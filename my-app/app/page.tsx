@@ -25,6 +25,7 @@ export default function Home() {
                 </Link>
             <footer>
             Aplicación sin ánimo de lucro, propuesta de Trabajo Fin de Master de David Rodríguez Rives. <Link href={`https://github.com/miniesda`}>Github</Link>
+            <br/>
             Protegida con licencia Apache 2.0
             </footer>
             </div>
