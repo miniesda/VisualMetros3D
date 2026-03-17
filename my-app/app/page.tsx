@@ -23,6 +23,10 @@ export default function Home() {
                     <button>AR View</button>
                     <img src="https://raw.githubusercontent.com/miniesda/VisualMetros3D/main/my-app/public/img/ar.png" width={150} height={150}></img>
                 </Link>
+            <footer>
+            Aplicación sin ánimo de lucro, propuesta de Trabajo Fin de Master de David Rodríguez Rives. <Link href={`https://github.com/miniesda`}>Github</Link>
+            Protegida con licencia Apache 2.0
+            </footer>
             </div>
     );
 }
